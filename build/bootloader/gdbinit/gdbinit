@@ -1,0 +1,2 @@
+source /home/wjj/esp/esp-idf/examples/get-started/hello_world/build/bootloader/gdbinit/symbols
+source /home/wjj/esp/esp-idf/examples/get-started/hello_world/build/bootloader/gdbinit/connect

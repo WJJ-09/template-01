@@ -1,0 +1,48 @@
+Command: /home/wjj/.espressif/python_env/idf5.5_py3.9_env/bin/python /home/wjj/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c6 --revision 0 --decode-panic backtrace /home/wjj/esp/esp-idf/examples/get-started/hello_world/build/hello_world.elf /home/wjj/esp/esp-idf/examples/get-started/hello_world/build/bootloader/bootloader.elf -m '/home/wjj/.espressif/python_env/idf5.5_py3.9_env/bin/python' '/home/wjj/esp/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x4086c110: esp_bootloader_get_description at /home/wjj/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c:39 (discriminator 1)
+[0m
+[0;33m--- 0x4086e610: esp_flash_encryption_enabled at /home/wjj/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c:88
+[0m
+[0;33m--- 0x4086c11a: call_start_cpu0 at /home/wjj/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+[0m
+[0;33m--- 0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33m--- 0x4086c110: esp_bootloader_get_description at /home/wjj/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c:39 (discriminator 1)
+[0m
+[0;33m--- 0x4086e610: esp_flash_encryption_enabled at /home/wjj/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c:88
+[0m
+[0;33m--- 0x4086c11a: call_start_cpu0 at /home/wjj/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+[0m
+[0;33m--- 0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33m--- 0x4086c110: esp_bootloader_get_description at /home/wjj/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c:39 (discriminator 1)
+[0m
+[0;33m--- 0x4086e610: esp_flash_encryption_enabled at /home/wjj/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c:88
+[0m
+[0;33m--- 0x4086c11a: call_start_cpu0 at /home/wjj/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+[0m
+[0;33m--- 0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33m--- 0x4086c110: esp_bootloader_get_description at /home/wjj/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c:39 (discriminator 1)
+[0m
+[0;33m--- 0x4086e610: esp_flash_encryption_enabled at /home/wjj/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c:88
+[0m
+[0;33m--- 0x4086c11a: call_start_cpu0 at /home/wjj/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+[0m
+[0;33m--- 0x4086c110: esp_bootloader_get_description at /home/wjj/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c:39 (discriminator 1)
+[0m
+[0;33m--- 0x4086e610: esp_flash_encryption_enabled at /home/wjj/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c:88
+[0m
+[0;33m--- 0x4086c11a: call_start_cpu0 at /home/wjj/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+[0m
+[0;33m--- 0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33m--- 0x4086c110: esp_bootloader_get_description at /home/wjj/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c:39 (discriminator 1)
+[0m
+[0;33m--- 0x4086e610: esp_flash_encryption_enabled at /home/wjj/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c:88
+[0m
+[0;33m--- 0x4086c11a: call_start_cpu0 at /home/wjj/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+[0m
+[0m

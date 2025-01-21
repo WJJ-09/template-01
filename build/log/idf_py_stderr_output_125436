@@ -1,0 +1,8 @@
+Command: make -j 18 all
+CMake Error: Error: generator : Unix Makefiles
+Does not match the generator used previously: Ninja
+Either remove the CMakeCache.txt file and CMakeFiles directory or choose a different binary directory.
+make[2]: *** [CMakeFiles/bootloader.dir/build.make:91: bootloader-prefix/src/bootloader-stamp/bootloader-configure] Error 1
+make[1]: *** [CMakeFiles/Makefile2:967: CMakeFiles/bootloader.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:136: all] Error 2

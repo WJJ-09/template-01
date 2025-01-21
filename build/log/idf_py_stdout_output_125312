@@ -1,0 +1,12 @@
+Command: make -j 18 all
+[  0%] Built target custom_bundle
+[  0%] Built target sections.ld.in
+[  0%] Built target partition_table_bin
+[  0%] Built target memory.ld
+[  0%] Built target _project_elf_src
+[  0%] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj
+[  0%] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
+[  0%] Performing configure step for 'bootloader'
+[  0%] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj
+[  0%] Linking C static library libcxx.a
+[  0%] Built target __idf_cxx
