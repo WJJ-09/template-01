@@ -15,7 +15,11 @@
 
 void app_main(void)
 {
-    printf("Hello world!\n");
+    for(int i = 0; i < 5; i++)
+          {
+        printf("Hello wjj!\n");
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
+    }
 
     /* Print chip information */
     esp_chip_info_t chip_info;
