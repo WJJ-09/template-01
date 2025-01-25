@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/zsh
 
 # 设置项目路径
 PROJECT_PATH="/home/wjj/esp/esp-idf/examples/get-started/hello_world"
