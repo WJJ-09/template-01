@@ -17,8 +17,7 @@ void app_main(void)
 {
     for(int i = 0; i < 5; i++)
           {
-        printf(" wjj3!\n");
-        printf(" 你好!\n");
+        printf(" wjj!\n");
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 
