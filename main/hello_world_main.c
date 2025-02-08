@@ -18,6 +18,7 @@ void app_main(void)
     for(int i = 0; i < 5; i++)
           {
         printf(" wjj!\n");
+        printf("你好\n");
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 
@@ -54,3 +55,8 @@ void app_main(void)
     fflush(stdout);
     esp_restart();
 }
+/*
+1 电脑命名 用英文
+2 虚拟机 vmware wsl(推荐) ubuntu
+3 github bitbucket gitlab 
+*/
